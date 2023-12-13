@@ -21,12 +21,12 @@ All of these tools work on what we call :ref:`usage/introduction:targets`.
 .. csv-table::
     :header: "Tool", "Description"
 
-    ":doc:`/tools/acquire`", "Forensic artefact collection tool."
-    ":doc:`/tools/target-query`", "Export artefacts (plugin outputs) from targets to stdout or a record file."
+    ":doc:`/tools/acquire`", "Forensic artifact collection tool."
+    ":doc:`/tools/target-query`", "Export artifacts (plugin outputs) from targets to stdout or a record file."
     ":doc:`/tools/target-shell`", "Interact with targets using a virtual shell."
     ":doc:`/tools/target-fs`", "Interact with a single target's filesystem via the command line."
     ":doc:`/tools/target-reg`", "Interact with the registry of a Windows based target."
-    ":doc:`/tools/target-dump`", "Export artefacts in bulk to record files."
+    ":doc:`/tools/target-dump`", "Export artifacts in bulk to record files."
     ":doc:`/tools/target-dd`", "Export raw bytes from a target to stdout or a file."
     ":doc:`/tools/target-mount`", "Mount a target using FUSE."
     ":doc:`/tools/rdump`", "Dump, transform, and manipulate :ref:`records <overview/index:records>` from stdin or a file."
@@ -66,7 +66,7 @@ Retrieving basic information with target-query
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The best way to get started with Dissect is by using :doc:`/tools/target-query`. We can use ``target-query`` to query
-information and artefacts from targets. We can retrieve a list of all available functions with the
+information and artifacts from targets. We can retrieve a list of all available functions with the
 ``target-query --list`` command, which we'll cover in more detail later.
 
 The following functions are not currently shown in the list ``target-query --list`` output, however they do exist:

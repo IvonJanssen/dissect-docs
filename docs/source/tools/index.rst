@@ -6,6 +6,7 @@ Tools
     /tools/acquire
     /tools/target-query
     /tools/target-shell
+    /tools/target-info
     /tools/target-fs
     /tools/target-reg
     /tools/target-dump

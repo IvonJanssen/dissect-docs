@@ -9,11 +9,11 @@ The functionality that ``dissect.target`` provides can be separated into two cat
   * Volumes
   * Filesystems
 
-* Interaction with high level target attributes and artefacts, such as:
+* Interaction with high level target attributes and artifacts, such as:
 
   * Basic OS information (hostname, domain, version, users, etc...)
-  * OS specific forensic artefacts (Event logs, bash history, registry artefacts, etc...)
-  * Generic forensic artefacts (filesystem artefacts, browser history, etc...)
+  * OS specific forensic artifacts (Event logs, bash history, registry artifacts, etc...)
+  * Generic forensic artifacts (filesystem artifacts, browser history, etc...)
 
 The former is what ``dissect.target`` provides as core functionality. High level interaction is provided by a
 plugin system. This is also how you interact with a target using :doc:`/tools/target-query`.
@@ -60,7 +60,7 @@ Windows Registry
 ^^^^^^^^^^^^^^^^
 
 The Windows registry is a vital part of the Windows operating system, but also vital to the field of digital forensics.
-It contains a lot of interesting forensic artefacts, in addition to a lot of important information that is necessary
+It contains a lot of interesting forensic artifacts, in addition to a lot of important information that is necessary
 to correctly interpret a Windows target. For example, configured log file locations, which codepage is in use,
 what time zone is configured, which drive letter belongs to which volume, and much more.
 
@@ -119,8 +119,8 @@ command line, which essentially is a small utility around the registry plugin!
 Artefact plugins
 ~~~~~~~~~~~~~~~~
 
-Most other plugins in ``dissect.target`` are regular plugins, or plugins that parse artefacts. For convenience we'll
-call these artefact plugins. These types of plugins are the ones you generally interact with when using
+Most other plugins in ``dissect.target`` are regular plugins, or plugins that parse artifacts. For convenience we'll
+call these artifact plugins. These types of plugins are the ones you generally interact with when using
 :doc:`/tools/target-query` and generally parse some piece of data from a target and return some kind of output.
 
 Namespace plugins
@@ -199,7 +199,7 @@ Plugins can have a couple types of outputs:
 
 * ``record``
 
-  * Records are the recommended output for most artefact plugins.
+  * Records are the recommended output for most artifact plugins.
 
 * ``yield``
 
