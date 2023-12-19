@@ -1,14 +1,14 @@
 acquire
 =======
 
-``acquire`` is a tool to quickly gather forensic artifacts from disk images or a live system into a lightweight container.
+``acquire`` is a tool to quickly gather forensic artefacts from disk images or a live system into a lightweight container.
 This makes ``acquire`` an excellent tool to, among others, speed up the process of digital forensic triage.
-``acquire`` uses ``dissect`` to gather forensic artifacts from the raw disk, if possible.
+``acquire`` uses ``dissect`` to gather forensic artefacts from the raw disk, if possible.
 
-``acquire`` gathers artifacts based on modules. These modules are paths or globs on a filesystem which acquire attempts to gather.
+``acquire`` gathers artefacts based on modules. These modules are paths or globs on a filesystem which acquire attempts to gather.
 Multiple modules can be executed at once, which have been collected together inside a profile.
 These profiles (used with ``--profile``) are  ``full``, ``default``, ``minimal`` and ``none``.
-Depending on what operating system gets detected, different artifacts are collected.
+Depending on what operating system gets detected, different artefacts are collected.
 
 The most basic usage of ``acquire`` is as follows:
 
@@ -91,7 +91,7 @@ PyOxidizer is a relatively new Python application packer that integrates heavily
 and functionality, at the cost of a fairly large executable size and complex configuration options.
 
 A major benefit of PyOxidizer is that, by default, it runs all of its Python code completely from memory, no file extraction
-necessary. This can result in the preservation of important filesystem artifacts.
+necessary. This can result in the preservation of important filesystem artefacts.
 
 Since ``dissect.target`` dynamically locates its plugins, we have to pre-generate a list of all plugins for it to work
 when running in a self-contained executable.
@@ -126,7 +126,7 @@ executables, for both legitimate and malicious purposes. It has a lot less optio
 it's considerably easier to use and the resulting binaries are a lot smaller.
 
 A major downside of PyInstaller is that you have to either ship multiple files or use the ``--onefile`` option, which
-extracts files to a temporary directory on the filesystem. This can destroy forensic filesystem artifacts, so keep that
+extracts files to a temporary directory on the filesystem. This can destroy forensic filesystem artefacts, so keep that
 in mind when using PyInstaller.
 
 Similar to PyOxidizer, we also have to pre-generate a list of plugins for PyInstaller.

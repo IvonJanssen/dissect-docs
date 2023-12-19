@@ -14,7 +14,7 @@ filesystems or ``dissect.hypervisor`` for parsing many virtual disk formats. How
 ``dissect.target`` is a host investigation framework made for enterprise forensics. It works on
 :ref:`targets <overview/index:targets>`, which is basically any type of source data you may encounter in an
 investigation. You don't have to worry anymore about how you're going to get something like a registry hive out of an
-image, instead you're able to immediately get usable artifacts and investigation information out of any source data.
+image, instead you're able to immediately get usable artefacts and investigation information out of any source data.
 This allows you to spend more time on doing the fun and interesting work of an investigation, and less time on the
 boring stuff, like extracting files and running a bunch of different tools on them.
 
@@ -156,7 +156,7 @@ not really that useful. We'd still have to write a ton of Python code ourselves 
 the plugin system of ``dissect.target`` comes into play.
 
 Plugins is where we further refine a loaded target and what we can do with it. It's also the place where we can implement
-actual functionality for e.g. extracting forensic artifacts. If you were to stack all of the previous layers in order, with
+actual functionality for e.g. extracting forensic artefacts. If you were to stack all of the previous layers in order, with
 containers being at the bottom, plugins would be at the top. The idea is that you could swap any compatible component
 within a layer with another, and it will all continue to work just fine.
 
@@ -187,12 +187,12 @@ correct drive letters.
 Other plugins
 ^^^^^^^^^^^^^
 
-Next we have auxiliary and "artifact" plugins. An example of an auxiliary plugin is the Windows registry plugin, which
+Next we have auxiliary and "artefact" plugins. An example of an auxiliary plugin is the Windows registry plugin, which
 provides an easy to use API for interacting with the Windows registry, which can then be used by all the other plugins.
-An example of an artifact plugin is the Windows event log plugin, or the Windows services plugin, which leverages the
+An example of an artefact plugin is the Windows event log plugin, or the Windows services plugin, which leverages the
 registry plugin!
 
-Note that it's a deliberate design decision in Dissect that artifacts are only parsed from their intended/configured
+Note that it's a deliberate design decision in Dissect that artefacts are only parsed from their intended/configured
 locations. For example, when parsing Windows event logs we will only use the default and configured event log paths
 (from the registry). Event logs in any other location on the filesystem will not be parsed.
 

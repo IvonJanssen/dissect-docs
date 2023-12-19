@@ -16,7 +16,7 @@ most essential information from a (live) system into a small sized container (0.
 
 Usually, you'll find yourself in a situation where you want to make an image of a live system. But for this example,
 let's say you wish to have a lightweight forensic container of ``IE11-Win81-VMWare-disk1.vmdk``, instead of the full
-VMDK file. Using Acquire with the ``minimal`` profile results in obtaining the basic relevant artifacts in a small
+VMDK file. Using Acquire with the ``minimal`` profile results in obtaining the basic relevant artefacts in a small
 sized container.
 
 Let's run ``acquire`` on the ``.vmdk`` file and compare the file sizes afterwards.
@@ -36,7 +36,7 @@ We end up with a 0.5 GB ``acquire`` container, which is 17 times smaller than th
     Refer to :doc:`/tools/acquire` for a more in-depth explanation of what ``acquire`` can do.
 
 
-If you want to obtain artifacts on a larger scale, you can do so using the examples described in :ref:`tools/acquire:deployment`. 
+If you want to obtain artefacts on a larger scale, you can do so using the examples described in :ref:`tools/acquire:deployment`. 
 It allows you to pack Acquire into a standalone executeable and deploy it in a network!
 
 Creating an MFT timeline
@@ -44,7 +44,7 @@ Creating an MFT timeline
 
 In case of a NTFS file system, creating an MFT timeline is a great way to get a quick initial impression of what
 happened on a system. To create such a timeline, we can use the special ``mft_timeline`` function. It parses the MFT
-file and returns a human readable output. Since the MFT is an important artifact in the context of digital forensics,
+file and returns a human readable output. Since the MFT is an important artefact in the context of digital forensics,
 the ``minimal`` Acquire profile collects this file. To show this, we use the ``MSEDGEWIN10.tar`` as a target to produce
 the MFT timeline with the following command:
 
@@ -97,9 +97,9 @@ Write ``target-query`` functions output to a file
 -------------------------------------------------
 
 :doc:`/tools/target-query` will quickly become your best friend during an investigation. 
-From the :doc:`/usage/introduction` page, you've seen how you can easily query information and artifacts
+From the :doc:`/usage/introduction` page, you've seen how you can easily query information and artefacts
 from your targets by using the functions that are available to you. There are a couple of functions that return
-information and artifacts that you would almost always want to take a look at during an investigation, including but not limited to:
+information and artefacts that you would almost always want to take a look at during an investigation, including but not limited to:
 
 * ``evtx``
 * ``evt``

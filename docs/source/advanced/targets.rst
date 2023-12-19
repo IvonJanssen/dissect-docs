@@ -43,7 +43,7 @@ The next important attribute to know about is ``Target.fs``, which is the
 the context of a ``Target``. Use this when you need to interact with "the filesystem" of a target.
 
 Finally, there are the :doc:`/advanced/plugins`. Plugins are functions that can be executed on a target. They can be as
-simple as reading the hostname from ``/etc/hostname``, or as advanced as parsing a specific artifact like the
+simple as reading the hostname from ``/etc/hostname``, or as advanced as parsing a specific artefact like the
 Windows event log.
 
 Plugins are dynamically made available on the ``Target`` object. For example, if you wanted to run the ``evtx`` plugin
