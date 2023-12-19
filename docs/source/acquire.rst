@@ -1,7 +1,7 @@
 acquire
 -------
 
-Acquire can collect forensic artifacts from a live system or an image. Resulting images
+Acquire can collect forensic artefacts from a live system or an image. Resulting images
 can be fed to other Dissect tools like target-query.
 
 To run **acquire** on a live system:
@@ -12,7 +12,7 @@ To run **acquire** on a live system:
 
 .. note::
 
-    To be able to access the full system to collect its artifacts one must
+    To be able to access the full system to collect its artefacts one must
     run acquire with administrator privileges.
 
 
@@ -20,7 +20,7 @@ Profiles
 ~~~~~~~~
 
 By default, Acquire runs the full profile, meaning it will collect as much as it can.
-You can select specific artifacts you are interested in or you can select a profile.
+You can select specific artefacts you are interested in or you can select a profile.
 
     
 .. note::

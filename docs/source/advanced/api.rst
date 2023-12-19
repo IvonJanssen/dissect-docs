@@ -144,7 +144,7 @@ Targets
 -------
 
 Targets are what glues everything together. This is how you interact with a "full" system, from accessing raw disks
-and volumes, to interpreting and parsing OS specific artifacts. To open one or more targets, you can use the
+and volumes, to interpreting and parsing OS specific artefacts. To open one or more targets, you can use the
 :func:`Target.open() <dissect.target.target.Target.open>` or
 :func:`Target.open_all() <dissect.target.target.Target.open_all>` methods:
 

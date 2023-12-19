@@ -1,7 +1,7 @@
 Welcome to Dissect!
 ===================
 
-Effortlessly investigate **forensic artifacts** from any source with **Dissect**.
+Effortlessly investigate **forensic artefacts** from any source with **Dissect**.
 With Dissect, you can go from intake call to patient zero in a matter of hours,
 even in infrastructures with thousands of systems.
 
@@ -35,11 +35,11 @@ With this simple one-liner you can extract all user accounts from an image:
 Key features
 ------------
 
-Dissect is a powerful artifact extractor and parser that saves you a lot of time.
+Dissect is a powerful artefact extractor and parser that saves you a lot of time.
 With Dissect you can:
 
-* Quickly **extract** artifacts from any source (like EWF, Kape, DD, VDI, PVM)
-* Access artifacts from almost any **OS** (like Windows, macOS, Linux/Unix, ESXi)
+* Quickly **extract** artefacts from any source (like EWF, Kape, DD, VDI, PVM)
+* Access artefacts from almost any **OS** (like Windows, macOS, Linux/Unix, ESXi)
 * Access almost any **filesystem** (like NTFS, EXT, XFS, QNX6)
 * **Parse** (binary) logs, registry entries, cookies, history and more
 * **Export** findings to Text, JSON, CSV or stream to datastores like Splunk, Elastic, MySQL
