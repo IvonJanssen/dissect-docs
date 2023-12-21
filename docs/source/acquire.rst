@@ -12,7 +12,7 @@ To run **acquire** on a live system:
 
 .. note::
 
-    To be able to access the full system to collect its artefacts one must
+    To be able to access the full system to collect all its artefacts one must
     run acquire with administrator privileges.
 
 
