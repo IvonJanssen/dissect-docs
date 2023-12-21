@@ -85,7 +85,7 @@ The output is:
     Mr. Evil
 
 
-To see what else we can query in this image, use the `-l` option:
+To see what else we can query in this image, use the ``-l`` option:
 
 .. code-block:: console
 
