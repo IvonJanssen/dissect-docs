@@ -73,7 +73,7 @@ If you have a lot of functions you wish to apply, wildcards (and other glob-rule
 
     $ target-query host.img -f apps.browser.*.history
     
-You can combine the with the `dry-run` option to see what will be actually executed:
+You can combine the ``-f`` option with the `dry-run` option (``-n``/``--dry-run``) to see what will be actually executed:
 
 .. code-block:: console
     
