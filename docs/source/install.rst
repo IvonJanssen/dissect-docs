@@ -39,7 +39,7 @@ You can start using this image by executing the following command in your termin
 
 .. code-block:: console
 
-    $ docker run -it --rm -v /path/to/targets/:/mnt:ro ghcr.io/fox-it/dissect:3.2
+    $ docker run -it --rm -v /path/to/targets/:/mnt:ro ghcr.io/fox-it/dissect:3.11
     (<dissect version>) <container hash>:/workspace$
 
 This will drop you in a shell environment with all the Dissect ``target-*`` :doc:`tools </tools/index>` at your disposal.
