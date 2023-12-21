@@ -114,7 +114,7 @@ To limit the number of results, use the ``--limit`` option like this:
 
 Besides the regular format, target-query can use ``-j`` option to output as JSON.
 After you have generated some data you might want to process it further, you can use
-**rdump** (Record Dumper) for this.
+:doc:`rdump <rdump>` (Record Dumper) for this.
 
 .. note::
 

@@ -28,7 +28,7 @@ enter the system32 folder of the machine.
 
 .. note ::
 
-    Although we are navigating a Windows machine here, the UNIX path notation
+    Although we are navigating a Windows machine here, the POSIX path notation
     is required.
     
 Use ``cat`` to view to the contents of text files (use ``zcat`` for compressed files and
