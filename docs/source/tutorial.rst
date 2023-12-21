@@ -117,7 +117,7 @@ Finally, to inspect the system as if you were logged into it via a shell, invoke
     $ target-shell target-query SCHARDT.img
     
 Using :doc:`target-shell <target-shell>`, you can now navigate inside the target image by using the regular UNIX commands like
-`ls`, `cd`, `find`, `stat` and so on.
+``ls``, ``cd``, ``find``, ``stat`` and so on.
 
 This was just a quick introduction to the basic tools that are at your disposal.
 To get an understanding of the basics of Dissect see:
