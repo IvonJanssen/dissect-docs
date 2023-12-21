@@ -96,7 +96,7 @@ To see what else we can query in this image, use the ``-l`` option:
     We also add `-q` to suppress warnings from plugins telling us they
     are not compatible with this forensic image.
 
-You now see a list of plugins that you can use with the `-f` option.
+You now see a list of plugins that you can use with the ``-f`` option.
 Try a couple of them.
 
 If we want to query for suspicious programs that might have been installed
