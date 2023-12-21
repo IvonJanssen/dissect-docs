@@ -126,9 +126,3 @@ To get an understanding of the basics of Dissect see:
 * :doc:`target-shell <target-shell>`
 * :doc:`acquire <acquire>`
 * :doc:`rdump <rdump>`
-
-
-
-
-
-
