@@ -10,7 +10,7 @@ Quick Demo
 ----------
 
 In just a couple of seconds you can query a forensic image or even **shell-in**!
-This short animation shows how to retrieve deleted files from an suspicious machine
+This short animation shows how to list deleted files from an suspicious machine
 and explore the contents of the machine through a shell...
 
 .. image:: /images/demo.gif
