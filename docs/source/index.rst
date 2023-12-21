@@ -70,8 +70,8 @@ fine-grained at every level. To this end, the manual consists of
 
 Furthermore, under the advanced section we also discuss:
 
-* Architecture: overall architectural decisions
-* Scenarios: more complex (and realistic) real-world usage scenarios
+* :doc:`Architecture <overview/index>`: overall architectural decisions
+* :doc:`Scenarios <usage/index>`: more complex (and realistic) real-world usage scenarios
 
 .. toctree::
     :hidden:
