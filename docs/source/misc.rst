@@ -38,7 +38,7 @@ With ``target-fs`` you can interact with the filesystem of a target, using a set
 target-info
 ~~~~~~~~~~~
 
-The target-info tool gives a brief summary of a target.
+The ``target-info`` tool gives a brief summary of a target.
 
 .. note::
 
