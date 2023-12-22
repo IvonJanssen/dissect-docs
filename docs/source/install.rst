@@ -1,7 +1,7 @@
 Install
 -------
 
-Installing Dissect is easy. The preferred way of installing Dissect is with `pip`.
+Installing Dissect is easy. The preferred way of installing Dissect is with ``pip``.
 The install procedure is described below.
 
 System requirements
