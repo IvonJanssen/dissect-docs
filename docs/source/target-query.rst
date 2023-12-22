@@ -43,8 +43,8 @@ It is also possible to load multiple separate disks, just string them together u
 
     $ target-query disk1+disk2+disk3 -f osinfo
     
-For encrypted disks like LUKS you can provide a key through the `-K` option to provide a keychain file
-or `-Kv` to provide a passphrase.
+For encrypted disks like LUKS you can provide a key through the ``-K`` option to provide a keychain file
+or ``-Kv`` to provide a passphrase.
 
 For more information on the ``-K``, ``--keychain-file`` and ``-Kv``, ``--keychain-value`` arguments, please refer to
 :doc:`/usage/disk-encryption`.
