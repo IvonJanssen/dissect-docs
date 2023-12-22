@@ -18,7 +18,7 @@ Before you can query a forensic image, you first have Dissect to load the image.
 Dissect attempts to determine the file format automatically and attempts to select an appropriate loader.
 If the image is split into multiple files, just feed it the first.
 
-If you wish to override auto-detection, use the `-L` option to explicitly specify the loader that
+If you wish to override auto-detection, use the ``-L`` option to explicitly specify the loader that
 has to be used:
 
 .. code-block:: console
