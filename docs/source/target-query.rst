@@ -27,7 +27,7 @@ has to be used:
 
 .. note ::
 
-    The full list of loaders is listed at the end of the output of the `-l` option.
+    The full list of loaders is listed at the end of the output of the ``-l`` option.
 
 
 In case there is no complete image available but just a couple of separate (log/evt/evtx) files, you can use
