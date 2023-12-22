@@ -107,7 +107,7 @@ all binary files:
 
     $ target-query SCHARDT.img -f walkfs | rdump -s "r.path.suffix=='.exe'" -F path,ctime,mtime,size -C > db.csv
 
-Here we use the ``-s`` option for rdump to filter on a perticular file extension.
+Here we use the ``-s`` option for rdump to filter on a particular file extension.
 We use a *pythonesque* expression here. For more details see :doc:`rdump <rdump>`.
 
 Finally, to inspect the system as if you were logged into it via a shell, invoke:
