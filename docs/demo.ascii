@@ -97,7 +97,5 @@
 [29.718271, "o", "$AttrDef\r\n$BadClus\r\n$BadClus:$Bad\r\n$Bitmap\r\n$Boot\r\n\u001b[01;34m$Extend\u001b[0m\r\n$LogFile\r\n$MFT\r\n$MFTMirr\r\n\u001b[01;34m$Recycle.Bin\u001b[0m\r\n$Secure\r\n$Secure:$SDS\r\n$UpCase\r\n$UpCase:$Info\r\n$Volume\r\n\u001b[01;34mBGinfo\u001b[0m\r\nBOOTNXT\r\nBOOTSECT.BAK\r\n\u001b[01;34mBoot\u001b[0m\r\n\u001b[01;36mDocuments and Settings\u001b[0m\r\n\u001b[01;34mPerfLogs\u001b[0m\r\n\u001b[01;34mProgram Files\u001b[0m\r\n\u001b[01;34mProgram Files (x86)\u001b[0m\r\n\u001b[01;34mProgramData\u001b[0m\r\n\u001b[01;34mRecovery\u001b[0m\r\n\u001b[01;34mSystem Volume Information\u001b[0m\r\n\u001b[01;34mUsers\u001b[0m\r\n\u001b[01;34mWindows\u001b[0m\r\nbootmgr\r\npagefile.sys\r\nswapfile.sys\r\n\u001b[01;34mvenv\u001b[0m\r\n"]
 [29.718366, "o", "MSEDGEWIN10 /sysvol> "]
 [32.527091, "o", "\r\n"]
-[32.5272, "o", "MSEDGEWIN10 /sysvol> "]
-[32.810463, "o", "\r\n"]
 [32.946555, "o", "\u001b[?2004h\u001b]0;sherlock@dissect: /workspace\u0007\u001b[01;32msherlock@dissect\u001b[00m:\u001b[01;34m/workspace\u001b[00m$ "]
 
