@@ -37,7 +37,7 @@ the LogLoader for example:
 
     $ target-query data/*.evtx -L log -f evtx
 
-It is also possible to load multiple separate disks, just string them together using the `+` character.
+It is also possible to load multiple separate disks, just string them together using the ``+`` character.
 
 .. code-block:: console
 
