@@ -53,7 +53,7 @@ For more information on the ``-K``, ``--keychain-file`` and ``-Kv``, ``--keychai
 Querying
 ~~~~~~~~
 
-To get a full list of all functions available in target-query use the `-l` option. If you provide a target image
+To get a full list of all functions available in target-query use the ``-l`` option. If you provide a target image
 the list will be filtered based on the compatibility with the target.
 
 You can apply multiple functions if you want:
